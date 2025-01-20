@@ -27,7 +27,7 @@ export default function Home() {
           Like many surnames of Germanic origin, <em>Cronmiller</em> (also found as <em>Cronemiller</em>, 
           <em>Kronmüller</em>, <em>Kronmiller</em>, <em>Gronmüller</em>, etc.) likely began as a 
           descriptive or occupational surname. In German, the word <em>Müller</em> (spelled <em>Mueller</em> or 
-          <em>Muller</em> in anglicized form) simply means "miller"—i.e., one who operates or works at a mill.
+          <em>Muller</em> in anglicized form) simply means &quot;miller&quot;—i.e., one who operates or works at a mill.
         </p>
         <p className="text-gray-800 text-lg leading-relaxed">
           Over time, families bearing the name might have spelled it according to local dialects, 
@@ -41,9 +41,9 @@ export default function Home() {
       <section className="bg-white rounded-lg shadow-lg p-8 mb-8">
         <h2 className="text-2xl font-bold mb-6 text-gray-900">Origins of the Name</h2>
         <div className="mb-8">
-          <h3 className="text-xl font-semibold mb-3 text-gray-900">Occupational Origin: Müller ("Miller")</h3>
+          <h3 className="text-xl font-semibold mb-3 text-gray-900">Occupational Origin: Müller (&quot;Miller&quot;)</h3>
           <ul className="list-disc pl-6 space-y-2 text-gray-800 text-lg">
-            <li>The core of all these variants is <em>Müller</em>, Germany's most common surname.</li>
+            <li>The core of all these variants is <em>Müller</em>, Germany&apos;s most common surname.</li>
             <li>In the Middle Ages (1300s–1500s), as surnames became standardized, many families took or were given the name indicating their trade.</li>
             <li>Thus, <em>Müller</em> lines can often be traced in local parish or civic records back to the 15th or 16th centuries (and in rare cases, earlier).</li>
           </ul>
@@ -53,26 +53,26 @@ export default function Home() {
           <h3 className="text-xl font-semibold mb-3 text-gray-900">The Prefix Variations</h3>
           <div className="space-y-4">
             <div>
-              <h4 className="font-semibold text-gray-900 mb-2">Kron– or Cron– from "Krone" (Crown)</h4>
+              <h4 className="font-semibold text-gray-900 mb-2">Kron– or Cron– from &quot;Krone&quot; (Crown)</h4>
               <p className="text-gray-800 text-lg">
-                The German word <em>Krone</em> means "crown." A family might have adopted (or been assigned) 
-                <em>Kron-Müller</em> to denote "the miller by the crown" (perhaps referring to a mill 
-                located near an inn called <em>Zur Krone</em> ["At the Crown"] or near a place whose 
+                The German word <em>Krone</em> means &quot;crown.&quot; A family might have adopted (or been assigned) 
+                <em>Kron-Müller</em> to denote &quot;the miller by the crown&quot; (perhaps referring to a mill 
+                located near an inn called <em>Zur Krone</em> [&quot;At the Crown&quot;] or near a place whose 
                 emblem was a crown).
               </p>
             </div>
             <div>
               <h4 className="font-semibold text-gray-900 mb-2">Korn– vs. Kron–</h4>
               <p className="text-gray-800 text-lg">
-                In some dialects, <em>Korn</em> ("grain") and <em>Kron</em> ("crown") can sound similar. 
+                In some dialects, <em>Korn</em> (&quot;grain&quot;) and <em>Kron</em> (&quot;crown&quot;) can sound similar. 
                 One hypothesis is that <em>Cron–</em> might be an older or dialect spelling of <em>Korn</em>, 
-                leading to "grain miller."
+                leading to &quot;grain miller.&quot;
               </p>
             </div>
             <div>
               <h4 className="font-semibold text-gray-900 mb-2">Gron– Variation</h4>
               <p className="text-gray-800 text-lg">
-                Sometimes "Gron–" might derive from <em>grün</em> (green) in dialect, or from a toponym 
+                Sometimes &quot;Gron–&quot; might derive from <em>grün</em> (green) in dialect, or from a toponym 
                 (e.g., <em>Gronau</em>, <em>Gronigen</em>, etc.).
               </p>
             </div>
@@ -106,7 +106,7 @@ export default function Home() {
       <section className="bg-white rounded-lg shadow-lg p-8 mb-8">
         <h2 className="text-2xl font-bold mb-4 text-gray-900">Are You a Cronmiller?</h2>
         <p className="text-gray-800 text-lg leading-relaxed mb-4">
-          If you share this surname or have information about its history, we'd love to hear from you. 
+          If you share this surname or have information about its history, we&apos;d love to hear from you. 
           Your story could help us better understand the rich history of the Cronmiller name.
         </p>
         <p className="text-gray-800 text-lg leading-relaxed">

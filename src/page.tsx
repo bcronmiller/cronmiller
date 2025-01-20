@@ -19,7 +19,7 @@ export default function Home() {
         <div className="bg-white p-6 rounded-lg shadow-lg">
           <h2 className="text-2xl font-bold mb-4">Name History</h2>
           <p className="text-gray-600 mb-4">
-            Discover the origins and meaning of the Cronmiller name, its German roots,
+            Discover the origins and meaning of the Cronmiller name, its German roots, 
             and how it spread across the world.
           </p>
           <Link href="/name-history">
@@ -33,7 +33,7 @@ export default function Home() {
         <div className="bg-white p-6 rounded-lg shadow-lg">
           <h2 className="text-2xl font-bold mb-4">Recommendations</h2>
           <p className="text-gray-600 mb-4">
-            A curated collection of books, media, and cultural recommendations
+            A curated collection of books, media, and cultural recommendations 
             that might interest you.
           </p>
           <Link href="/recommendations">
