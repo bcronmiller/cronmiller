@@ -19,9 +19,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Navigation />
-        <main className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
-          <div className="absolute inset-0 bg-grid-pattern opacity-5 pointer-events-none"></div>
-          {children}
+        <main className="min-h-screen bg-gradient-to-br from-blue-50 via-gray-50 to-blue-100">
+          <div className="absolute inset-0 bg-grid-pattern opacity-10 pointer-events-none"></div>
+          <div className="relative">
+            {children}
+          </div>
         </main>
       </body>
     </html>
