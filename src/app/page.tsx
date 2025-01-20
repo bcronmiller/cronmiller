@@ -1,20 +1,25 @@
+import Image from 'next/image';
+import Link from 'next/link';
+
 export default function Home() {
   return (
     <div className="container mx-auto px-4 py-12">
       {/* Hero Section */}
       <div className="text-center mb-16">
         <div className="mb-12 flex justify-center">
-          <img 
+          <Image
             src="/images/cronmiller-crest.png"
             alt="Cronmiller Family Crest"
-            className="w-64 h-auto transform hover:scale-105 transition-duration-300"
+            width={256}
+            height={256}
+            className="transform hover:scale-105 transition duration-300"
           />
         </div>
         <h1 className="text-4xl font-bold mb-8 text-gray-900">
           The Cronmiller Name: Origins and History
         </h1>
       </div>
-      
+
       {/* Overview Section */}
       <section className="bg-white rounded-lg shadow-lg p-8 mb-8">
         <h2 className="text-2xl font-bold mb-4 text-gray-900">Overview of the Surname</h2>
@@ -35,7 +40,6 @@ export default function Home() {
       {/* Origins Section */}
       <section className="bg-white rounded-lg shadow-lg p-8 mb-8">
         <h2 className="text-2xl font-bold mb-6 text-gray-900">Origins of the Name</h2>
-        
         <div className="mb-8">
           <h3 className="text-xl font-semibold mb-3 text-gray-900">Occupational Origin: Müller ("Miller")</h3>
           <ul className="list-disc pl-6 space-y-2 text-gray-800 text-lg">
@@ -87,7 +91,6 @@ export default function Home() {
               Occupational names like <em>Müller</em> are among the oldest.
             </p>
           </div>
-
           <div className="border-l-4 border-blue-600 pl-4">
             <h3 className="text-xl font-semibold mb-2 text-gray-900">Migration to America</h3>
             <p className="text-gray-800 text-lg">
@@ -96,33 +99,26 @@ export default function Home() {
               have been adapted from <em>Kronmüller</em> or <em>Cronmüller</em> to its current form.
             </p>
           </div>
-
-          <div className="border-l-4 border-blue-600 pl-4">
-            <h3 className="text-xl font-semibold mb-2 text-gray-900">American Establishment</h3>
-            <p className="text-gray-800 text-lg">
-              Like many immigrant families, the Cronmillers adapted to their new home, 
-              establishing themselves in the Philadelphia area. They were part of the rich tapestry 
-              of German-American immigration that helped shape the region.
-            </p>
-          </div>
         </div>
       </section>
+
+      {/* Call to Action */}
       <section className="bg-white rounded-lg shadow-lg p-8 mb-8">
-  <h2 className="text-2xl font-bold mb-4 text-gray-900">Are You a Cronmiller?</h2>
-  <p className="text-gray-800 text-lg leading-relaxed mb-4">
-    If you share this surname or have information about its history, we'd love to hear from you. 
-    Your story could help us better understand the rich history of the Cronmiller name.
-  </p>
-  <p className="text-gray-800 text-lg leading-relaxed">
-    Drop us a line at{' '}
-    <a 
-      href="mailto:hello@cronmiller.net" 
-      className="text-blue-600 hover:text-blue-800 underline"
-    >
-      hello@cronmiller.net
-    </a>
-  </p>
-</section>
+        <h2 className="text-2xl font-bold mb-4 text-gray-900">Are You a Cronmiller?</h2>
+        <p className="text-gray-800 text-lg leading-relaxed mb-4">
+          If you share this surname or have information about its history, we'd love to hear from you. 
+          Your story could help us better understand the rich history of the Cronmiller name.
+        </p>
+        <p className="text-gray-800 text-lg leading-relaxed">
+          Drop us a line at{' '}
+          <a 
+            href="mailto:hello@cronmiller.net" 
+            className="text-blue-600 hover:text-blue-800 underline"
+          >
+            hello@cronmiller.net
+          </a>
+        </p>
+      </section>
     </div>
   );
 }
