@@ -4,8 +4,8 @@
 
 .bg-grid-pattern {
   background-image: 
-    linear-gradient(to right, rgba(59, 130, 246, 0.05) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(59, 130, 246, 0.05) 1px, transparent 1px);
+    linear-gradient(to right, rgba(30, 64, 175, 0.2) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(30, 64, 175, 0.2) 1px, transparent 1px);
   background-size: 30px 30px;
 }
 
@@ -16,13 +16,13 @@ body {
 
 /* Enhanced card shadows */
 .shadow-lg {
-  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1),
-              0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.15),
+              0 8px 10px -6px rgba(0, 0, 0, 0.15);
 }
 
 /* Add depth to sections */
 section {
   backdrop-filter: blur(8px);
-  background: rgba(255, 255, 255, 0.97);
+  background: rgba(255, 255, 255, 0.92);
   border: 1px solid rgba(255, 255, 255, 0.7);
 }

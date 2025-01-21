@@ -1,4 +1,3 @@
-// src/app/layout.tsx
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
@@ -16,10 +15,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <main className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
-          {children}
+    <html lang="en" className="h-full">
+      <body className={`${inter.className} min-h-full`}>
+        <main className="min-h-screen relative bg-gradient-to-br from-blue-400 via-white to-blue-500">
+          <div className="absolute inset-0 bg-grid-pattern opacity-20 pointer-events-none" />
+          <div className="relative">
+            {children}
+          </div>
         </main>
       </body>
     </html>

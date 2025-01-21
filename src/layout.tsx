@@ -18,8 +18,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <main className="min-h-screen bg-gradient-to-br from-blue-50 via-gray-50 to-blue-100">
-          <div className="absolute inset-0 bg-grid-pattern opacity-10 pointer-events-none"></div>
-          <div className="relative">
+          {/* Removed the undefined bg-grid-pattern div */}
+          <div className="relative container mx-auto px-4">
             {children}
           </div>
         </main>
