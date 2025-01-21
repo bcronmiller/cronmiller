@@ -20,11 +20,7 @@ export default function Home() {
             Discover the origins and meaning of the Cronmiller name, its German roots, 
             and how it spread across the world.
           </p>
-          <Link href="/name-history">
-            <a className="text-blue-600 hover:text-blue-800 font-medium">
-              Learn more about our name →
-            </a>
-          </Link>
+          
         </div>
 
         {/* Recommendations */}
@@ -34,12 +30,7 @@ export default function Home() {
             A curated collection of books, media, and cultural recommendations 
             that might interest you.
           </p>
-          <Link href="/recommendations">
-            <a className="text-blue-600 hover:text-blue-800 font-medium">
-              View recommendations →
-            </a>
-          </Link>
-        </div>
+         </div>
       </div>
     </div>
   );
