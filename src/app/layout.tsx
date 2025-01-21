@@ -16,9 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="h-full">
-      <body className={`${inter.className} min-h-full`}>
-        <main className="min-h-screen relative bg-gradient-to-br from-blue-400 via-white to-blue-500">
-          <div className="absolute inset-0 bg-grid-pattern opacity-20 pointer-events-none" />
+      <body className={`${inter.className} min-h-full bg-gray-900 text-gray-100`}>
+        <main className="min-h-screen relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
+          <div className="absolute inset-0 bg-grid-pattern opacity-5 pointer-events-none" />
           <div className="relative">
             {children}
           </div>
